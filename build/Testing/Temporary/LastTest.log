@@ -1,0 +1,19 @@
+Start testing: Nov 03 00:17 CET
+----------------------------------------------------------
+1/1 Testing: steamnet_tests
+1/1 Test: steamnet_tests
+Command: "/home/david/Dokumente/coding_projects/SteamNet/build/steamnet_tests"
+Directory: /home/david/Dokumente/coding_projects/SteamNet/build
+"steamnet_tests" start time: Nov 03 00:17 CET
+Output:
+----------------------------------------------------------
+96 checks, 0 failures
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"steamnet_tests" end time: Nov 03 00:17 CET
+"steamnet_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 00:17 CET

@@ -1,0 +1,41 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"build/_deps/entt-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "EnTT::@e079cb554d68b20fd169",
+	"name" : "EnTT",
+	"paths" : 
+	{
+		"build" : "_deps/entt-build",
+		"source" : "build/_deps/entt-src"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

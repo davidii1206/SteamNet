@@ -1,0 +1,158 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "EnTT::@e079cb554d68b20fd169",
+					"jsonFile" : "target-EnTT-Debug-ee045e5dd7c44e30a996.json",
+					"name" : "EnTT",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-Debug-a7f15992da8c47413b34.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Steamworks::steam_api::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Steamworks__steam_api-Debug-b8037cfb3890dced8fe5.json",
+					"name" : "Steamworks::steam_api",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1,
+						2
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "_deps/entt-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.entt-build-Debug-45c3aa6a2a8d7d812aba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/entt-src"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1,
+						2
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SteamNet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "EnTT",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "steamnet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-steamnet-Debug-019f13a565b029e9a19f.json",
+					"name" : "steamnet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "steamnet_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-steamnet_core-Debug-ce952552d929172435b9.json",
+					"name" : "steamnet_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "steamnet_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-steamnet_example-Debug-d5b826c1b12243b52a1b.json",
+					"name" : "steamnet_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "steamnet_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-steamnet_tests-Debug-d75a323ed5c2d3e429ba.json",
+					"name" : "steamnet_tests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/david/Dokumente/coding_projects/SteamNet/build",
+		"source" : "/home/david/Dokumente/coding_projects/SteamNet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

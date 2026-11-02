@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/david/Dokumente/coding_projects/SteamNet/build",
+  "command": "/usr/bin/clang++ -I/home/david/Dokumente/coding_projects/SteamNet/include -I/home/david/Dokumente/coding_projects/SteamNet/src -isystem /home/david/Dokumente/coding_projects/SteamNet/build/_deps/entt-src/src -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/steamnet_core.dir/src/Messages/MessageRegistry.cpp.o -c /home/david/Dokumente/coding_projects/SteamNet/src/Messages/MessageRegistry.cpp",
+  "file": "/home/david/Dokumente/coding_projects/SteamNet/src/Messages/MessageRegistry.cpp",
+  "output": "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/steamnet_core.dir/src/Messages/MessageRegistry.cpp.o"
+},
+{
+  "directory": "/home/david/Dokumente/coding_projects/SteamNet/build",
+  "command": "/usr/bin/clang++ -I/home/david/Dokumente/coding_projects/SteamNet/include -I/home/david/Dokumente/coding_projects/SteamNet/src -isystem /home/david/Dokumente/coding_projects/SteamNet/build/_deps/entt-src/src -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/steamnet_core.dir/src/Replication/Replication.cpp.o -c /home/david/Dokumente/coding_projects/SteamNet/src/Replication/Replication.cpp",
+  "file": "/home/david/Dokumente/coding_projects/SteamNet/src/Replication/Replication.cpp",
+  "output": "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/steamnet_core.dir/src/Replication/Replication.cpp.o"
+},
+{
+  "directory": "/home/david/Dokumente/coding_projects/SteamNet/build",
+  "command": "/usr/bin/clang++ -I/home/david/Dokumente/coding_projects/SteamNet/include -isystem /home/david/Dokumente/coding_projects/SteamNet/sdk/public -isystem /home/david/Dokumente/coding_projects/SteamNet/src -isystem /home/david/Dokumente/coding_projects/SteamNet/build/_deps/entt-src/src -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/steamnet.dir/src/steamnet/Network.cpp.o -c /home/david/Dokumente/coding_projects/SteamNet/src/steamnet/Network.cpp",
+  "file": "/home/david/Dokumente/coding_projects/SteamNet/src/steamnet/Network.cpp",
+  "output": "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/steamnet.dir/src/steamnet/Network.cpp.o"
+},
+{
+  "directory": "/home/david/Dokumente/coding_projects/SteamNet/build",
+  "command": "/usr/bin/clang++ -I/home/david/Dokumente/coding_projects/SteamNet/include -isystem /home/david/Dokumente/coding_projects/SteamNet/sdk/public -isystem /home/david/Dokumente/coding_projects/SteamNet/src -isystem /home/david/Dokumente/coding_projects/SteamNet/build/_deps/entt-src/src -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/steamnet.dir/src/Session/LobbyManager.cpp.o -c /home/david/Dokumente/coding_projects/SteamNet/src/Session/LobbyManager.cpp",
+  "file": "/home/david/Dokumente/coding_projects/SteamNet/src/Session/LobbyManager.cpp",
+  "output": "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/steamnet.dir/src/Session/LobbyManager.cpp.o"
+},
+{
+  "directory": "/home/david/Dokumente/coding_projects/SteamNet/build",
+  "command": "/usr/bin/clang++ -I/home/david/Dokumente/coding_projects/SteamNet/include -isystem /home/david/Dokumente/coding_projects/SteamNet/sdk/public -isystem /home/david/Dokumente/coding_projects/SteamNet/src -isystem /home/david/Dokumente/coding_projects/SteamNet/build/_deps/entt-src/src -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/steamnet.dir/src/Transport/SteamTransport.cpp.o -c /home/david/Dokumente/coding_projects/SteamNet/src/Transport/SteamTransport.cpp",
+  "file": "/home/david/Dokumente/coding_projects/SteamNet/src/Transport/SteamTransport.cpp",
+  "output": "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/steamnet.dir/src/Transport/SteamTransport.cpp.o"
+},
+{
+  "directory": "/home/david/Dokumente/coding_projects/SteamNet/build",
+  "command": "/usr/bin/clang++ -I/home/david/Dokumente/coding_projects/SteamNet/include -isystem /home/david/Dokumente/coding_projects/SteamNet/sdk/public -isystem /home/david/Dokumente/coding_projects/SteamNet/build/_deps/entt-src/src -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/steamnet_example.dir/examples/BasicMultiplayer/main.cpp.o -c /home/david/Dokumente/coding_projects/SteamNet/examples/BasicMultiplayer/main.cpp",
+  "file": "/home/david/Dokumente/coding_projects/SteamNet/examples/BasicMultiplayer/main.cpp",
+  "output": "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/steamnet_example.dir/examples/BasicMultiplayer/main.cpp.o"
+},
+{
+  "directory": "/home/david/Dokumente/coding_projects/SteamNet/build",
+  "command": "/usr/bin/clang++ -I/home/david/Dokumente/coding_projects/SteamNet/include -isystem /home/david/Dokumente/coding_projects/SteamNet/build/_deps/entt-src/src -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/steamnet_tests.dir/tests/tests.cpp.o -c /home/david/Dokumente/coding_projects/SteamNet/tests/tests.cpp",
+  "file": "/home/david/Dokumente/coding_projects/SteamNet/tests/tests.cpp",
+  "output": "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/steamnet_tests.dir/tests/tests.cpp.o"
+}
+]

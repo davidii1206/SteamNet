@@ -1844,3 +1844,472 @@ events:
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils) 2.47
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:26 (find_library)"
+    mode: "library"
+    variable: "STEAMWORKS_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "steam_api"
+      - "steam_api64"
+      - "libsteam_api"
+    candidate_directories:
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux32/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/win64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/osx/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux64/linux64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux64/linux32/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux64/win64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux64/osx/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux32/linux64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux32/linux32/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux32/win64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux32/osx/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux32/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/win64/linux64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/win64/linux32/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/win64/win64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/win64/osx/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/win64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/osx/linux64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/osx/linux32/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/osx/win64/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/osx/osx/"
+      - "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/osx/"
+    found: "/home/david/Dokumente/coding_projects/SteamNet/sdk/redistributable_bin/linux64/libsteam_api.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/david/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/android-ndk"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:48 (find_package)"
+    name: "entt"
+    configs:
+      -
+        filename: "entt.cps"
+        kind: "cps"
+      -
+        filename: "enttConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "entt-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "entt"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/pkgRedirects/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/pkgRedirects/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/pkgRedirects/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/david/Dokumente/coding_projects/SteamNet/build/CMakeFiles/pkgRedirects/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/david/.local/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/david/.local/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/david/.local/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/david/.local/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/android-ndk/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/android-ndk/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/android-ndk/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/android-ndk/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/android-sdk/platform-tools/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/android-sdk/platform-tools/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/android-sdk/platform-tools/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/android-sdk/platform-tools/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/android-sdk/tools/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/android-sdk/tools/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/android-sdk/tools/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/android-sdk/tools/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/cuda/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/cuda/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/cuda/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/cuda/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/var/lib/flatpak/exports/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/var/lib/flatpak/exports/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/var/lib/flatpak/exports/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/var/lib/flatpak/exports/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/jvm/default/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/jvm/default/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/jvm/default/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/jvm/default/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/site_perl/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/vendor_perl/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/bin/core_perl/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/enttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/entt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/lib/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/opt/share/cps/entt.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/david/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/android-ndk"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGit.cmake:111 (find_program)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:1889 (find_package)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:2160:EVAL:2 (__FetchContent_doPopulation)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:2160 (cmake_language)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)"
+      - "CMakeLists.txt:55 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/home/david/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/android-ndk/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/opt/cuda/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/david/.local/bin/git"
+      - "/usr/local/sbin/git"
+      - "/usr/local/bin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/home/david/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/android-ndk"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/opt/cuda/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...

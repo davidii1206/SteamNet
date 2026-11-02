@@ -1,7 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/david/Dokumente/coding_projects/SteamNet/build/cmake_install.cmake"
+		"/home/david/Dokumente/coding_projects/SteamNet/build/cmake_install.cmake",
+		"/home/david/Dokumente/coding_projects/SteamNet/build/_deps/entt-build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
